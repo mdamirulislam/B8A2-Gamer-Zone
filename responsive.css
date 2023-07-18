@@ -17,6 +17,20 @@
     .follow-section{
         margin-top: 30px;
     }
+    /* banner */
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+        /* height: 100%; */
+      
+    }  
+    .banner-img {
+        width: 100%;
+        padding: 20px;
+    }
+    .banner-img img{width: 100%;}
 }
 
 
