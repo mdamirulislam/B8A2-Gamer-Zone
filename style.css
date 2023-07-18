@@ -406,13 +406,9 @@ footer {
 }
 
 .social-icons {
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 70px;
-    display: grid;
-    gap: 0;
-    align-items: center;
-    grid-template-columns: repeat(6, 1fr);
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
 }
 
 .policy {
