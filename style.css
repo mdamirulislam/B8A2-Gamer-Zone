@@ -123,12 +123,15 @@ span {
     border-radius: 20px;
     margin-top: 30px;
 }
-.signIn-btn{
-    background-color:  #FF42A5  ;
+
+.signIn-btn {
+    background-color: #FF42A5;
 }
-.goRogue-btn{
+
+.goRogue-btn {
     background-color: rgba(78, 197, 247, 1);
 }
+
 .banner-img {
     width: 50%;
 }
@@ -171,4 +174,55 @@ span {
     font-size: 1.5rem;
     margin-right: 12px;
     color: purple;
+}
+
+/* funny-game-videos style */
+.funny-game-videos {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.game-title {
+    text-align: center;
+   
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.game-title-gradient{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 48px;
+
+}
+.game-description{
+    color: #534C64;
+text-align: center;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 16px;
+}
+.video-cards {
+    display: flex;
+    gap: 24px;
+}
+
+.video-card {
+    padding: 10px;
+}
+.video-card img{
+    width: 100%;
+}
+.video-card p {
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
 }

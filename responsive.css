@@ -1,73 +1,117 @@
 /* mobile responsive */
 @media screen and (max-width: 576px) {
-    nav{
+    nav {
         flex-direction: column;
     }
-    .option{
+
+    .option {
         flex-direction: column;
     }
-    .two-option{
+
+    .two-option {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
     }
-    .two-option a{
+
+    .two-option a {
         margin-top: 30px;
     }
-    .follow-section{
+
+    .follow-section {
         margin-top: 30px;
     }
+
     /* banner */
-    .banner{
+    .banner {
         flex-direction: column-reverse;
     }
-    .banner-content{
+
+    .banner-content {
         width: 90%;
         height: 90%;
         /* height: 100%; */
-      margin: 10px;
-    }  
-    .banner-content-text h1{
+        margin: 10px;
+    }
+
+    .banner-content-text h1 {
         font-size: 3rem;
     }
-    .banner-content-text h2{
+
+    .banner-content-text h2 {
         font-size: 2rem;
     }
-    .banner-content-text p{
+
+    .banner-content-text p {
         font-size: 1rem;
     }
-    .banner-content-text button{
+
+    .banner-content-text button {
         font-size: 13px;
         font-weight: 400;
         padding: 7px 12px;
     }
+
     .banner-img {
         width: 100%;
         padding: 20px;
     }
-    .banner-img img{width: 100%;}
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .video-cards {
+
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .game-title {
+
+        font-size: 20px;
+
+    }
+
+    .game-title-gradient {
+        font-size: 20px;
+    }
+
+    .game-description {
+        font-size: 10px;
+    }
 }
 
 
 /* Tablet device style   */
 @media screen and (min-width:576px) and (max-width: 992px) {
-    nav{
+    nav {
         flex-direction: column;
     }
-    .option{
+
+    .option {
         margin-top: 30px;
     }
-      /* banner */
-      .banner{
+
+    /* banner */
+    .banner {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .banner-content{
-       width: 90%;
-       margin-top: 50px;
-    } 
+
+    .banner-content {
+        width: 90%;
+        margin-top: 50px;
+    }
+
     .banner-img {
         width: 90%;
         padding: 20px;
+    }
+    .video-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px ;
     }
 }
