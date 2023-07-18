@@ -167,8 +167,26 @@ ul li{
         margin-top: 10px;
         margin-left: 10px;
     }
-
-    
+    .policy {
+        display: grid;
+        gap: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 70px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-logo {
+        width: 70%;
+        margin:  0 auto;
+        margin-right: 100px;
+        
+    }
+    .footer-logo h3, .g{
+        font-size: 20px;
+    }
+    .footer-logo{
+        width: 25px;
+    }
 }
 
 
@@ -231,5 +249,18 @@ ul li{
     .option {
         padding: 5px 20px;
         border-radius: 15px;
+    }
+    .policy {
+        max-width: 100%;
+      
+    }
+    .footer-logo{
+        width: 25px;
+    }
+    .footer-logo {
+        width: 70%;
+        margin:  0 auto;
+        margin-right: 100px;
+        
     }
 }
