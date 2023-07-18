@@ -91,6 +91,11 @@ span {
     font-size: 2rem;
 }
 
+.two-item {
+    display: flex;
+    align-items: center;
+}
+
 /* banner section style */
 .banner {
     margin: 0 auto;
@@ -309,7 +314,7 @@ span {
 }
 
 .option {
-    padding: 5px 20px;
+    padding: 5px 50px;
     border-radius: 15px;
 }
 
@@ -325,11 +330,83 @@ span {
     font-size: 20px;
     font-weight: 600;
 }
-.option:hover{
-   
-    border: 1px solid #F948B2 ;
+
+.option:hover {
+
+    border: 1px solid #F948B2;
     color: #F948B2;
 }
-.option:hover p{
+
+.option:hover p {
     color: #F948B2;
+}
+
+/* footer style */
+footer {
+    background-color: #0B0223;
+    color: white;
+}
+
+.footer-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 50px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer-logo h3 {
+    font-size: 40px;
+}
+
+.features {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.features p {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.social-icons {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    gap: 0;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.policy {
+    display: grid;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.social-icons i {
+    font-size: 40px;
+    color: white;
+}
+
+.policy p, .copyright {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
 }
