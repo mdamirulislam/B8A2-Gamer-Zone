@@ -26,6 +26,15 @@ nav {
 
 }
 
+.option, ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
 .logo-section {
     display: flex;
     align-items: center;
@@ -48,6 +57,7 @@ nav {
 .option {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .option a {
@@ -66,7 +76,7 @@ span {
     display: flex;
     align-items: center;
     background-color: lightgray;
-    padding: 16px 20px;
+    padding: 16px ;
     border-radius: 8px;
 }
 
@@ -91,10 +101,7 @@ span {
     font-size: 2rem;
 }
 
-.two-item {
-    display: flex;
-    align-items: center;
-}
+
 
 /* banner section style */
 .banner {
@@ -365,6 +372,9 @@ footer {
 
 .footer-logo h3 {
     font-size: 40px;
+}
+.footer-logo img{
+    width: 30%;
 }
 
 .features {
