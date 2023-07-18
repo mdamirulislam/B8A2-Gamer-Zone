@@ -309,12 +309,25 @@ span {
 
 /* gaming option style */
 .gaming-option {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 200px;
 }
-
-.gaming-option-section {
+.options{
+    display: flex;
+    gap: 30px;
+    flex-basis: content;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item img{
+    width: 50px;
+}
+/* .gaming-option-section {
     display: flex;
     gap: 30px;
     flex-basis: content;
@@ -348,7 +361,7 @@ span {
 
 .option:hover p {
     color: #F948B2;
-}
+} */
 
 /* footer style */
 footer {

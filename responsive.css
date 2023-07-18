@@ -108,6 +108,20 @@ ul li{
         grid-template-columns: repeat(3,1fr);
         padding: 20px;
     }
+   
+    .options{
+        display: flex;
+        gap: 30px;
+        flex-basis: content;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item img{
+        width: 25px;
+    }
+    .item p{
+        font-size: 10px;
+    }
     .option img{
         width: 10%;
     }
