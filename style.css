@@ -26,7 +26,7 @@ nav {
 
 }
 
-.option, ul{
+.nav-option, ul{
     display: flex;
 }
 ul li{
@@ -54,17 +54,17 @@ ul li{
 }
 
 
-.option {
+.nav-option {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.option a {
+.nav-option a {
     text-decoration: none;
 }
 
-.option a,
+.nav-option a,
 span {
     color: #3C354F;
     text-align: center;
@@ -80,7 +80,7 @@ span {
     border-radius: 8px;
 }
 
-.option a {
+.nav-option a {
     margin-right: 30px;
 }
 
