@@ -61,13 +61,15 @@
         width: 100%;
     }
 
+    /* cards */
+
     .video-cards {
 
       flex-direction: column;
       align-items: center;
 
     }
-
+    
     .game-title {
 
         font-size: 20px;
@@ -80,6 +82,27 @@
 
     .game-description {
         font-size: 10px;
+    }
+    /* play */
+    .play-instantly-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .play-content {
+        width: 90%;
+        text-align: center;
+    }
+    .play-img{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .play-img img{
+        width: 100%;
+    }
+
+    .second-img{
+      width: 40%;
+      
     }
 }
 
@@ -113,5 +136,20 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px ;
+    }
+    .play-instantly-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .play-content {
+        width: 90%;
+        text-align: center;
+    }
+    .play-img{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .play-img img{
+        width: 100%;
     }
 }
