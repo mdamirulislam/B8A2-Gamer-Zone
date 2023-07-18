@@ -22,10 +22,24 @@
         flex-direction: column-reverse;
     }
     .banner-content{
-        width: 100%;
+        width: 90%;
+        height: 90%;
         /* height: 100%; */
-      
+      margin: 10px;
     }  
+    .banner-content-text h1{
+        font-size: 3rem;
+    }
+    .banner-content-text h2{
+        font-size: 2rem;
+    }
+    .banner-content-text p{
+        font-size: 1rem;
+    }
+    .banner-content-text button{
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
     .banner-img {
         width: 100%;
         padding: 20px;
