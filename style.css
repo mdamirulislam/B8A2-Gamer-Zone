@@ -225,14 +225,16 @@ span {
     color: #F948B2;
 
 }
-
+/* video card style */
 .video-cards {
     display: flex;
     gap: 24px;
+    padding: 10px;
 }
 
 .video-card {
-    padding: 10px;
+    width: 342px;
+    height: 400px;
 }
 
 .video-card img {
@@ -404,9 +406,51 @@ footer {
     color: white;
 }
 
-.policy p, .copyright {
+.policy p,
+.copyright {
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
+}
+
+
+
+.video-card {
+    width: 342px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.content {
+    width: 342px;
+    height: 400px;
+    top: 0;
+    left: 10;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    color: #F948B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content h2{
+    color: white;
+}
+
+.content:hover {
+    opacity: 1;
+    border: 3px solid #F948B2;
+    border-radius: 15px;
 }
