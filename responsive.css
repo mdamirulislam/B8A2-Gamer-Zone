@@ -104,6 +104,39 @@
       width: 40%;
       
     }
+    /* gaming option */
+    .gaming-option-section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 20px;
+    }
+    .option img{
+        width: 10%;
+    }
+    .option p{width: 90%;}
+    .option {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: start;
+        align-content: center;
+        padding: 5px ;
+        gap: 0px;
+
+    }
+    .option img {
+        /* display: block; */
+        width: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    .option p {
+        width: 100%;
+        color: #0B0223;
+        font-size: 10px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 

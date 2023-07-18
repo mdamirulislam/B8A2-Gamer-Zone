@@ -262,31 +262,74 @@ span {
     justify-content: center;
     align-items: center;
 }
-.play-content p{
+
+.play-content p {
     color: #534C64;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
+
 .play-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
 }
 
-.play-img img{
-   width: 100%;
+.play-img img {
+    width: 100%;
 }
 
-.play-img{
+.play-img {
     width: 50%;
     position: relative;
 }
 
-.second-img{
+.second-img {
     position: absolute;
     bottom: -100px;
     left: -50px;
-  
+
+}
+
+/* gaming option style */
+.gaming-option {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.gaming-option-section {
+    display: flex;
+    gap: 30px;
+    flex-basis: content;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+
+
+.option img {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.option p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+.option:hover{
+   
+    border: 1px solid #F948B2 ;
+    color: #F948B2;
+}
+.option:hover p{
+    color: #F948B2;
 }
