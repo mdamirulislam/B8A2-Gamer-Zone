@@ -151,6 +151,7 @@ ul li{
     .footer-section {
         padding: 20px;
     }
+    .features{gap: 10px;}
     .features p{
         font-size: 16px;
     }
