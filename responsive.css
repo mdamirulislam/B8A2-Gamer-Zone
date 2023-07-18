@@ -1,0 +1,31 @@
+/* mobile responsive */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    .option{
+        flex-direction: column;
+    }
+    .two-option{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .two-option a{
+        margin-top: 30px;
+    }
+    .follow-section{
+        margin-top: 30px;
+    }
+}
+
+
+/* Tablet device style   */
+@media screen and (min-width:576px) and (max-width: 992px) {
+    nav{
+        flex-direction: column;
+    }
+    .option{
+        margin-top: 30px;
+    }
+}
