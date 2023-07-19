@@ -267,7 +267,10 @@ ul li{
         margin-right: 100px;
         
     }
-    .footer-logo h3, .footer-g{
-        font-size: 20px;
+    .footer-logo h3,
+    .footer-g, img {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
     }
 }
